@@ -1,0 +1,40 @@
+/* Custom CSS styles for the contact manager */
+
+body {
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#contactTable th {
+    text-transform: capitalize;
+}
+
+
+/* Contact List Styles */
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-list th,
+.contact-list td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-list th {
+  background-color: #f2f2f2;
+}
+
+.contact-list tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
